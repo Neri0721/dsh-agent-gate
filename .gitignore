@@ -1,0 +1,23 @@
+# 依赖与产物
+node_modules/
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+*.tgz
+
+# 插件运行态（不属于源码）
+agent-gate.json
+*.tmp
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.log
+*.swp
+
+# 本地试跑
+preview/
+*.png.bak

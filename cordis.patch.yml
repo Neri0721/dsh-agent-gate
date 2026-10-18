@@ -1,0 +1,8 @@
+# dsh-agent-gate bundle patch
+#
+# 客户端半边的入口（身份验证闸门 + 设置页）由本包的 dsh.client 声明；
+# 这里只把插件行插进 profile 的配置树。
+# 纯 insert(id/name) 可热挂载，无需重启 DSH。
+- insert:
+    - id: dsh-agent-gate
+      name: dsh-agent-gate
